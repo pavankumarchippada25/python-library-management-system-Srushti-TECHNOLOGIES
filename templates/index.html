@@ -2,6 +2,15 @@
 <html>
 <head>
     <title>Student Login</title>
+    <style>
+body{
+    background-image: url("{{ url_for('static', filename='bg.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+</style>
 </head>
 <body>
 
@@ -22,12 +31,7 @@
            required>
 
     <br><br>
-<style>
-body{
-    background-image: url("image/bg.jpg");
-    background-size: cover;
-}
-</style>
+
     <button type="submit">
         Login
     </button>
